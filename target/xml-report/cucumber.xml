@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.942">
-<testcase classname="Login feature" name="TC01_user dont create with empty or invalid credentials in Code textbox" time="24.012">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user is on the fhctripcreatehotel page................................passed
-And user logins with valid data.............................................failed
-And user enters  valid data all text box....................................skipped
-And user clicks save button.................................................skipped
-Then verify didn't creating hotel...........................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
-	at stepdefinitions.HotelCreateStepdefs.userLoginsWithValidData(HotelCreateStepdefs.java:20)
-	at ✽.user logins with valid data(file:///C:/Users/user/IdeaProjects/fhcproject_cucumber_framework/src/test/resources/features/HotelCreatePageNegativeTest.feature:7)
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="144.667">
+<testcase classname="Login feature" name="TC01_user dont create with empty or invalid credentials in Code textbox" time="131.052">
+<system-out><![CDATA[Given user is on the fhctripcreatehotel page................................passed
+And user logins with valid data.............................................passed
+And user enters  valid data all text box....................................passed
+And user clicks save button.................................................passed
+Then verify didn't creating hotel...........................................passed
+]]></system-out>
 </testcase>
 </testsuite>
