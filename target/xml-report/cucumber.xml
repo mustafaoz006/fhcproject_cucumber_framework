@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="144.667">
+<testcase classname="Login feature" name="TC01_user dont create with empty or invalid credentials in Code textbox" time="131.052">
+<system-out><![CDATA[Given user is on the fhctripcreatehotel page................................passed
+And user logins with valid data.............................................passed
+And user enters  valid data all text box....................................passed
+And user clicks save button.................................................passed
+Then verify didn't creating hotel...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

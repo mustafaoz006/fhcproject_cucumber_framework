@@ -1,0 +1,120 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-21T23:45:49.931Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC01_user dont create with empty or invalid credentials in Code textbox",
+        "description": "",
+        "id": "login-feature;tc01-user-dont-create-with-empty-or-invalid-credentials-in-code-textbox",
+        "after": [
+          {
+            "result": {
+              "duration": 7070000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73022000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the fhctripcreatehotel page",
+            "match": {
+              "location": "stepdefinitions.HotelCreateStepdefs.userIsOnTheFhctripcreatehotelPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46556000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logins with valid data",
+            "match": {
+              "location": "stepdefinitions.HotelCreateStepdefs.userLoginsWithValidData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3631000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters  valid data all text box",
+            "match": {
+              "location": "stepdefinitions.HotelCreateStepdefs.userEntersValidDataAllTextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks save button",
+            "match": {
+              "location": "stepdefinitions.HotelCreateStepdefs.userClicksSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify didn\u0027t creating hotel",
+            "match": {
+              "location": "stepdefinitions.HotelCreateStepdefs.verifyDidnTCreatingHotel()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelCreateNegative"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HotelCreatePageNegativeTest.feature",
+    "tags": [
+      {
+        "name": "@HotelCreateNegative",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
