@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="144.667">
-<testcase classname="Login feature" name="TC01_user dont create with empty or invalid credentials in Code textbox" time="131.052">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="120.47">
+<testcase classname="Login feature" name="TC01_user dont create with empty or invalid credentials in Code textbox" time="46.088">
 <system-out><![CDATA[Given user is on the fhctripcreatehotel page................................passed
 And user logins with valid data.............................................passed
-And user enters  valid data all text box....................................passed
+And user enters valid data all text box except code.........................passed
 And user clicks save button.................................................passed
-Then verify didn't creating hotel...........................................passed
+Then verify didn't creating hotel wtihout code..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="TC01_user dont create with empty or invalid credentials in Name textbox" time="19.084">
+<system-out><![CDATA[Given user is on the fhctripcreatehotel page................................passed
+And user logins with valid data.............................................passed
+And user enters  valid data all text box except name........................passed
+And user clicks save button.................................................passed
+Then verify didn't creating hotel  wtihout name.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="TC01_user dont create with empty or invalid credentials in Address textbox" time="17.398">
+<system-out><![CDATA[Given user is on the fhctripcreatehotel page................................passed
+And user logins with valid data.............................................passed
+And user enters  valid data all text box except address.....................passed
+And user clicks save button.................................................passed
+Then verify didn't creating hotel  wtihout address..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="TC01_user dont create with empty or invalid credentials in Phone textbox" time="18.725">
+<system-out><![CDATA[Given user is on the fhctripcreatehotel page................................passed
+And user logins with valid data.............................................passed
+And user enters  valid data all text box except phone.......................passed
+And user clicks save button.................................................passed
+Then verify didn't creating hotel  wtihout phone............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="TC01_user dont create with empty or invalid credentials in Email textbox" time="17.885">
+<system-out><![CDATA[Given user is on the fhctripcreatehotel page................................passed
+And user logins with valid data.............................................passed
+And user enters  valid data all text box except email.......................passed
+And user clicks save button.................................................passed
+Then verify didn't creating hotel  wtihout email............................passed
 ]]></system-out>
 </testcase>
 </testsuite>
